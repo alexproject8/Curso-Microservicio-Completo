@@ -14,9 +14,9 @@ spring:
 #    import: "optional:configserver:"
 
 # Deshabilitar config server
-  cloud:
-    config:
-      enabled: false
+#  cloud:
+#    config:
+#     enabled: false
       
 # DB
   datasource:
