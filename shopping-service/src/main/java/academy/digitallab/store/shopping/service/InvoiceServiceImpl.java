@@ -1,8 +1,8 @@
 package academy.digitallab.store.shopping.service;
 
-import academy.digitallab.store.shopping.client.CustomerClient;
-import academy.digitallab.store.shopping.client.ProductClient;
 import academy.digitallab.store.shopping.entity.InvoiceItem;
+import academy.digitallab.store.shopping.feignclient.CustomerClient;
+import academy.digitallab.store.shopping.feignclient.ProductClient;
 import academy.digitallab.store.shopping.model.Customer;
 import academy.digitallab.store.shopping.model.Product;
 import academy.digitallab.store.shopping.repository.InvoiceItemsRepository;

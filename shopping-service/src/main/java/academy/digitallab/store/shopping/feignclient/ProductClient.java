@@ -1,4 +1,4 @@
-package academy.digitallab.store.shopping.client;
+package academy.digitallab.store.shopping.feignclient;
 
 import academy.digitallab.store.shopping.model.Product;
 import org.springframework.cloud.openfeign.FeignClient;
@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @FeignClient(name = "product-service")
+@RequestMapping("/products")
 public interface ProductClient {
 
     @GetMapping(value = "/{id}")

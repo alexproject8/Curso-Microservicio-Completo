@@ -1,4 +1,4 @@
-package academy.digitallab.store.shopping.client;
+package academy.digitallab.store.shopping.feignclient;
 
 import academy.digitallab.store.shopping.model.Customer;
 import org.springframework.http.ResponseEntity;
