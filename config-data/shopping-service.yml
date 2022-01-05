@@ -58,7 +58,9 @@ Feign:
 
 #Actuator
 management:
+  enabled: false
   endpoints:
     web:
       exposure:
         include: "*"
+      base-path: /
