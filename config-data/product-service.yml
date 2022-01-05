@@ -1,6 +1,9 @@
 # Puerto
 server:
   port: 8091
+  error:
+    include-message: always
+    include-binding-errors: always
 
 # Para ver la consola H2 en el navegador
 # http://localhost:8091/h2-console
