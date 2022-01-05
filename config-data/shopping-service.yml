@@ -51,16 +51,14 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8099/eureka/
 
-#Feign y Hystrix
+#Feign y Hystrix - configuración necesaria para Hystrix
 Feign:
   hystrix:
     enable: true
 
-#Actuator
+#Actuator - configuración necesaria para Hystrix
 management:
-  enabled: false
   endpoints:
     web:
       exposure:
         include: "*"
-      base-path: /
