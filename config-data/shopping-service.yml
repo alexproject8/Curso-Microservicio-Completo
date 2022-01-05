@@ -58,7 +58,9 @@ Feign:
 
 #Actuator - configuración necesaria para Hystrix
 management:
+  enabled: false
   endpoints:
     web:
       exposure:
         include: "*"
+      base-path: /
