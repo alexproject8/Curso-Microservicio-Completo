@@ -54,11 +54,10 @@ eureka:
 #Feign y Hystrix - configuración necesaria para Hystrix
 Feign:
   hystrix:
-    enable: true
+    enabled: true
 
 #Actuator - configuración necesaria para Hystrix
 management:
-  enabled: true
   endpoints:
     web:
       exposure:
