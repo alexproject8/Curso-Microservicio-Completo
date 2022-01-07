@@ -65,3 +65,8 @@ management:
     web:
       exposure:
         include: "*"
+
+#Para que funcione hystrix dashboard
+hystrix:
+  dashboard:
+    proxy-stream-allow-list: "*"
